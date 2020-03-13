@@ -1,0 +1,88 @@
+* {box-sizing: border-box;}
+
+body{
+    font-family: 'Bellota', sans-serif;
+    font-size: 25px;
+    line-height: 1.6;
+
+}
+
+
+
+.fondo img{
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    border-bottom: 5px solid white ;
+
+}
+.foto{
+    height: 100px;
+}
+
+#menu{
+
+    display: flex;
+    float: right;
+
+}
+
+nav a{
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    margin-right: 30px;
+
+}
+
+#prueba {
+    position: relative;
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius:80%;
+    border: 5px solid white;
+    top: -90px;
+    left: 20px;
+}
+#Inicio{
+
+    text-align: left;
+    padding: 1px 0 50px;
+}
+
+
+ .box p{
+    font-size: 35px;
+
+    padding: 5px;
+}
+
+#Introduccion{
+    top: 10px;
+}
+#Introduccion h1{
+    font-size: 40px;
+}
+
+#Experiencia h1{
+    font-size: 40px;
+}
+
+#Contacto h1{
+    font-size: 40px;
+}
+
+
+.Lista li{
+    list-style:none;
+}
+.container {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
